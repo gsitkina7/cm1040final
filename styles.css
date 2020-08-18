@@ -1,0 +1,218 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    background-color: #100d23;
+    color: white;
+}
+
+#navigation {
+    background-color: #100d23;
+}
+
+#logo {
+    width: 220px;
+    height: 65px;
+}
+
+#navigation .nav-link {
+    color: white;
+}
+
+#navigation .nav-link:hover {
+    color: #2ca4d7;
+    font-weight: 700;
+}
+
+.smallText {
+    color: gray;
+}
+
+.page-footer {
+    background: linear-gradient(#101c43, #0b132e);
+    padding-top: 2.5%;
+}
+
+.page-footer ul {
+    list-style: none;
+}
+
+.page-footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-footer ul a:hover {
+    color: #2ca4d7;
+    text-decoration: underline;
+}
+
+#logo {
+    max-width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/****************************************/
+/*HOME PAGE CSS */
+/****************************************/
+
+/*Banner Section*/
+#banner {
+    /* background image: https://unsplash.com/photos/zpxKdH_xNSI*/
+    background-image: url(images/banner.jpg);
+    background-position: center;
+}
+
+#banner h1 {
+    font-size: 4rem;
+}
+
+#banner #content {
+    margin: 25%;
+    text-align: center;
+}
+
+#banner #content p {
+    font-size: 1.4rem;
+}
+
+hr {
+    background-color: white;
+}
+
+/*About Section*/
+#about {
+    background: linear-gradient(#101c43, #0b132e);
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+#about hr, #prices hr {
+    width: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 2px;
+}
+
+#about #moreButton {
+    background-color: #5d0930;
+    color: white;
+    border-style: none;
+    padding: 1% 5%;
+    border-radius: 12px;
+}
+
+#about #moreButton:hover {
+    background-color: #9a0738;
+}
+
+#about p, #lineup p {
+    margin-bottom: 2%;
+}
+
+/*Lineup Section*/
+/* #lineup {
+    background-color: white;
+    color: black;
+} */
+
+#lineupContent, #communityContent{
+    align-self: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#lineupContent hr, #communityContent hr {
+   width: 15%;
+}
+
+#lineup .carousel-caption p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#lineup #slide1 .carousel-caption p {
+    background-color: rgba(46, 48, 52, 0.4);
+}
+
+#lineup #slide2 .carousel-caption p {
+    background-color: rgba(29, 31, 31, 0.4);
+}
+
+#lineup #slide3 .carousel-caption p {
+    background-color: rgba(39, 38, 43, 0.4);
+}
+
+#lineup #slide4 .carousel-caption p {
+    background-color: rgba(76, 104, 151, 0.4);
+}
+
+#lineup #slide5 .carousel-caption p {
+    background-color: rgba(35, 37, 47, 0.4);
+}
+
+#lineupButton, #communityButton {
+    background-color: #0c58be;
+    color: white;
+    border-radius: 8px;
+}
+
+#lineupButton:hover, #communityButton:hover {
+    background-color: #2ca4d7;
+}
+
+/*Prices Section*/
+#prices {
+    background: linear-gradient(#101c43, #0b132e);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#prices h1 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#prices .card {
+    border-color: white;
+    border-width: 3px;
+    background: linear-gradient(#152558, #101c43);
+}
+
+#prices .card .card-header {
+    background-color: white;
+    color: black;
+}
+
+#prices .card .card-body ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.linkToLineup {
+    background-color: #9a0738;
+    color: white;
+}
+
+.linkToLineup:hover {
+    background-color: #b01d4e;
+    color: white;
+}
+
+/*Media Queries Home Page*/
+@media screen and (min-width: 576px) {
+    .linkToLineup {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .linkToLineup {
+        display: block;
+        margin: auto;
+    }
+}
